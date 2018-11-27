@@ -1,6 +1,6 @@
 ---
 title: "Predictive Modeling with Principle Components Analysis"
-output: md_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
