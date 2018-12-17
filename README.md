@@ -1,4 +1,4 @@
-Predictive Modeling with Principle Components Analysis
+Predictive Modeling with Principal Component Analysis
 ================
 
 ``` r
@@ -68,7 +68,7 @@ pca_model
     ## PCA needed 49 components to capture 99 percent of the variance
 
 ``` r
-# Generate the principle components for the train and test sets
+# Generate the principal components for the train and test sets
 train_pca_comp <- predict(pca_model, train[,c(1:(ncol(train)-1))])
 test_pca_comp <- predict(pca_model, test[,c(1:(ncol(train)-1))])
 
